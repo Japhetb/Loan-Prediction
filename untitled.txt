@@ -1,0 +1,6 @@
+<form method ="POST", action = "{{url_for('home')}}">
+               <label for = "Married">Married</label>
+                <select id = "myTextBox1" name ="Married">
+                    <option value = "0"> Yes </option>
+                    <option value = "1"> No</option>
+                </select><br><br><br>
